@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vasu Joshi- Portfolio</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="js/vendor.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar">
+  <div id="preloader" class="preloader">
+    <div role="status" class="spinner-grow text-dark"><span class="sr-only">Loading...</span></div>
+  </div>
+  <div class="page-wrapper">
+    {{>nav}}
+    {{{body}}}
+    {{>footer}}
+  </div>
+</body>
+</html>
